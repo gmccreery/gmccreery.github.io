@@ -1,0 +1,26 @@
+  {
+     "name": "Hello World",
+     "description": "Atlassian Connect app",
+     "key": "com.example.myapp",
+     "baseUrl": "https://3723-165-225-223-2.ngrok.io",
+     "vendor": {
+         "name": "Garrett McCreery Coding",
+         "url": "https://www.linkedin.com/in/garrettmccreery/"
+     },
+     "authentication": {
+         "type": "none"
+     },
+     "apiVersion": 2,
+     "modules": {
+         "generalPages": [
+             {
+                 "url": "/helloworld.html",
+                 "key": "hello-world",
+                 "location": "system.top.navigation.bar",
+                 "name": {
+                     "value": "English Greeting"
+                 }
+             }
+         ]
+     }
+}
